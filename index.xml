@@ -480,7 +480,7 @@ Hugo Blox supports a Markdown extension for mindmaps.&lt;/p&gt;
 
 
 
-&lt;div id=&#34;chart-716593428&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-961823475&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -498,7 +498,7 @@ Hugo Blox supports a Markdown extension for mindmaps.&lt;/p&gt;
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-716593428&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-961823475&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
